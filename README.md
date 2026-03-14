@@ -35,15 +35,16 @@ multi-ai-team-playbook/
 ├── CONTEXT.md          ← Fill this in first. Your standing brief.
 ├── README.md           ← You are here.
 │
-├── reports/            ← ChatGPT drops research here
-├── analysis/           ← Claude’s responses go here
+├── reports/            ← Research agent drops findings here
+├── analysis/           ← Analysis agent responses go here
 ├── memory/             ← Persistent knowledge that builds over time
 │   ├── opportunities.md
 │   ├── decisions.md
 │   └── products-watched.md
 │
 └── inbox/
-└── tasks.md        ← Your task queue for either model
+    └── tasks.md        ← Task queue for any agent
+
 
 
 ---
