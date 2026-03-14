@@ -1,64 +1,64 @@
-# tasks.md
-# Task queue for any agent.
-#
-# Drop tasks here between sessions. Each task should specify
-# which agent should handle it, what to do, and why it matters.
-# Delete or archive tasks once complete.
+# Task Queue
+
+Active tasks for the @FormFather brand. Add, assign, and check off 
+as work moves through the system.
+
+Format:
+- [ ] Task — [who] — [priority: HIGH / MED / LOW]
 
 ---
 
-## Pending Tasks
+## Immediate — Pre-Launch
 
-### [YYYY-MM-DD] — [Research / Analysis]
-**Assigned to:** [ChatGPT / Claude]
-**Task:** 
-[Describe what you need done in plain English. Be specific.]
-
-**Why this matters:**
-[One sentence on how this connects to the current project goal.]
-
-**Output should go to:**
-[reports/ or analysis/ — with suggested filename]
+- [ ] Shoot profile photo for @FormFather — Kevin — HIGH
+- [ ] Finalize bio copy — Claude — HIGH
+- [ ] Set up link-in-bio (Linktree or equivalent) — Kevin — HIGH
+- [ ] Configure highlights structure on Instagram — Kevin — MED
+- [ ] Script and shoot first piece of content — Claude + Kevin — HIGH
+- [ ] Build out inbox/tasks.md and memory/decisions.md in repo — 
+  Kevin — HIGH ← YOU ARE HERE
 
 ---
 
-## Example Tasks
+## Content Pipeline
 
-### 2026-03-13 — Research
-**Assigned to:** ChatGPT
-**Task:**
-Search for digital products on Gumroad teaching AI workflows or
-prompt engineering. Note titles, prices, number of sales if visible,
-and any customer reviews. Focus on products under $50 targeting
-non-technical buyers.
-
-**Why this matters:**
-Need pricing signals and competitive landscape before finalizing
-our own product price point.
-
-**Output should go to:**
-reports/2026-03-13-research.md
+- [ ] Script: The self-pity intro piece — Claude — HIGH
+- [ ] Script: The Army story — end on 16:11 — Claude — HIGH
+- [ ] Script: The 10,000 — what it is, why it matters — Claude — HIGH
+- [ ] Film: First kata footage (Heian Shodan recap or current kata) 
+  — Kevin — HIGH
+- [ ] Film: First transformation check-in — Kevin — MED
 
 ---
 
-### 2026-03-13 — Analysis
-**Assigned to:** Claude
-**Task:**
-Read reports/2026-03-13-research.md against CONTEXT.md and
-memory/products-watched.md. Identify gaps in the competitive
-landscape, flag any pricing patterns, and recommend a price
-point with rationale.
+## The Move to Blythe
 
-**Why this matters:**
-Final pricing decision needs to be made before the Gumroad
-listing goes live.
-
-**Output should go to:**
-analysis/2026-03-13-analysis.md
+- [ ] Plan content around the move — the desert chapter begins
+- [ ] Identify first outdoor training location in Blythe
+- [ ] Film arrival / establishing shots of new setting
 
 ---
 
-## Completed Tasks
+## Upcoming Milestones to Build Content Around
 
-[Move finished tasks here with a completion date so you have
-a record of what was done and when.]
+- [ ] Each kata completion within The 10,000 — document every one
+- [ ] Daniel's birth (due June 28)
+- [ ] Physical transformation milestone (~220 lbs)
+- [ ] The lineage reveal — plan as landmark moment, not casual mention
+
+---
+
+## Research Tasks (for ChatGPT)
+
+- [ ] Audit top 10 performing accounts in martial arts content space
+  — what formats, what hooks, what cadence
+- [ ] Research trending audio on Instagram Reels — transformation 
+  content, martial arts content
+- [ ] Hashtag research: martial arts, fatherhood, transformation, 
+  faith — which sets are performing vs saturated
+- [ ] Competitor content audit: what is ForgedFather posting and 
+  what is performing
+
+---
+
+*Last updated: [2026 March 15]*
