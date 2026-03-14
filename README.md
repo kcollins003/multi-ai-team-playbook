@@ -29,7 +29,7 @@ The models do the heavy lifting.
 ---
 
 ## Repo Structure
-
+```text
 multi-ai-team-playbook/
 │
 ├── CONTEXT.md          ← Fill this in first. Your standing brief.
@@ -44,7 +44,19 @@ multi-ai-team-playbook/
 │
 └── inbox/
     └── tasks.md        ← Task queue for any agent
+```
+## Repo Details
 
+| Folder / File | Purpose |
+|---|---|
+| `CONTEXT.md` | Fill this in first. Your standing brief. |
+| `README.md` | You are here. |
+| `reports/` | Research agent drops findings here |
+| `analysis/` | Analysis agent responses go here |
+| `memory/opportunities.md` | Running list of flagged opportunities |
+| `memory/decisions.md` | Decisions made and why |
+| `memory/products-watched.md` | Persistent tracker of items under evaluation |
+| `inbox/tasks.md` | Task queue for any agent |
 
 
 ---
