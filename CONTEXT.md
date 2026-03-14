@@ -1,5 +1,5 @@
 # CONTEXT.md
-# Your standing brief. Every AI session starts here.
+# Your standing brief.  Every AI session starts here.
 #
 # This file tells both models who you are, what you're working on,
 # and what a good result looks like. Fill in every section before
