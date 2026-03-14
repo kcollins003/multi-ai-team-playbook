@@ -32,19 +32,33 @@ The models do the heavy lifting.
 ```text
 multi-ai-team-playbook/
 │
-├── CONTEXT.md          ← Fill this in first. Your standing brief.
-├── sample-CONTEXT.md   ← Working example to emulate
-├── README.md           ← You are here.
+├── CONTEXT.md                      ← Fill this in first. Your standing brief.
+├── sample-CONTEXT.md               ← Working example to emulate
+├── README.md                       ← You are here.
 │
-├── reports/            ← Research agent drops findings here
-├── analysis/           ← Analysis agent responses go here
-├── memory/             ← Persistent knowledge that builds over time
+├── prompts/
+│   ├── chatgpt-research-prompt.md      ← Reusable ChatGPT session starter
+│   ├── sample-chatgpt-research-prompt.md
+│   ├── claude-analysis-prompt.md       ← Reusable Claude session starter
+│   └── sample-claude-analysis-prompt.md
+│
+├── reports/
+│   └── sample-research-report.md   ← Example ChatGPT research output
+│
+├── analysis/
+│   └── sample-analysis.md          ← Example Claude analysis output
+│
+├── memory/
 │   ├── opportunities.md
+│   ├── sample-opportunities.md
 │   ├── decisions.md
-│   └── products-watched.md
+│   ├── sample-decisions.md
+│   ├── products-watched.md
+│   └── sample-products-watched.md
 │
 └── inbox/
-    └── tasks.md        ← Task queue for any agent
+    ├── tasks.md                    ← Your task queue
+    └── sample-tasks.md
 ```
 
 ## What Each Folder Does
@@ -53,7 +67,7 @@ multi-ai-team-playbook/
 |---|---|
 | `CONTEXT.md` | Blank template — fill this in with your information |
 | `sample-CONTEXT.md` | Working example to emulate |
-| `README.md` | You are here. |
+| `prompts/` | Reusable session starters for each model |
 | `reports/` | Research agent drops findings here |
 | `analysis/` | Analysis agent responses go here |
 | `memory/opportunities.md` | Running list of flagged opportunities |
@@ -70,7 +84,7 @@ multi-ai-team-playbook/
 3. Read `sample-CONTEXT.md` to see a working example
 4. Fill in `CONTEXT.md` with your own information
 5. Read the full methodology in the playbook
-6. Run your first cycle
+6. Run your first cycle using the prompt templates in `prompts/`
 
 ---
 
